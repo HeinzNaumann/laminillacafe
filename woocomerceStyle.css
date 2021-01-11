@@ -1,0 +1,29 @@
+.woocommerce-product-search {
+    border-radius: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse
+}
+
+.woocommerce-product-search input {
+
+    border-radius: 0 40px 40px 0;
+    border-left: 0
+}
+
+.woocommerce-product-search button:before {
+    font-family: "Material Icons";
+    content: "\search";
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.woocommerce-product-search button {
+    font-size: 0px;
+    background-color: #fafafa;
+    color: #666666;
+    border: 1px solid #cccccc;
+    border-right: 0;
+    border-radius: 40px 0 0 40px;
+}
